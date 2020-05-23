@@ -1,5 +1,41 @@
-@tailwind base;
+@tailwind preflight;
 
+/* this is not working - see pasted styles below */
 @tailwind components;
 
 @tailwind utilities;
+
+
+/*
+    - pasted container styles here as not pulled in by build
+    - no idea why this is the case
+    - note that cdn version worked correctly as used on Codepen
+    - this is old version and cannot find a fix so for purposes of this demo pasting here will suffice
+*/
+.container {
+    width: 100%;
+  }
+
+  @media (min-width: 576px) {
+    .container {
+      max-width: 576px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .container {
+      max-width: 768px;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .container {
+      max-width: 992px;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1200px;
+    }
+  }

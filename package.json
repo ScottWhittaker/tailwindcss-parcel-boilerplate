@@ -11,7 +11,9 @@
   "license": "ISC",
   "dependencies": {
     "parcel-bundler": "^1.12.3",
-    "postcss-purgecss": "^1.0.0",
-    "tailwindcss": "^1.0.4"
+    "postcss-purgecss": "^1.0.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^0.7.4"
   }
 }
